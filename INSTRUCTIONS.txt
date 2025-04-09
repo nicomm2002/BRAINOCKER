@@ -2,33 +2,11 @@ ONLY FOR LINUX USERS
 
 GUIDE MODE (locally)
 1. xhost: This command disables access control, allowing clients to connect from any host
-This command starts Brainstorm using the compiled MATLAB runtime environment. Make sure VcXsrv is installed.
 2. To run it in this mode, open XLAUNCHER, select "Multiple Windows," keep the default display number, select "Do not launch client," check the "Disable access control" option, and click "Finish." This will run a virtual machine for Linux in the background where you can view Brainstorm.
 
+This software starts Brainstorm using the compiled MATLAB runtime environment. Make sure VcXsrv is installed.
 
-Use this commands
->> xhost + 
->> docker run -it --rm -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix neurodockernmm
-
-
-SERVER MODE (locally)
-Server mode allows the user to run Brainstorm without a GUI, for this you must specify the path of the .m file you want to run.
-
-Use this command
->> docker run -it --rm \
--v /mnt/c/Users/ASUS/path to your .m file/:/mnt/path \
-neurodockernmm \
-/usr/local/MATLAB/MATLAB_Runtime/R2023a /mnt/path/nameofyourfile.m    
-
-
-EXAMPLE >>>>>>>>>>> I have my .m file in ('c/Users/ASUS/OneDrive/Escritorio/JUEGOS')
->> docker run -it --rm \
--v /mnt/c/Users/ASUS/OneDrive/Escritorio/JUEGOS:/mnt/juegos \
-neurodockernmm \
-/usr/local/MATLAB/MATLAB_Runtime/R2023a /mnt/juegos/start.m 
-
-
-GUI MODE (ONLINE)
+GUI MODE (ONLINE) 
 xhost +
 docker run -it --rm -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix nicomm77/neurodockernmm:v1
 
