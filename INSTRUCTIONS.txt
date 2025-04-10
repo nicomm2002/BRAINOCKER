@@ -2,9 +2,9 @@ ONLY FOR LINUX USERS
 
 GUIDE MODE (locally)
 1. xhost: This command disables access control, allowing clients to connect from any host
-2. To run it in this mode, open XLAUNCHER, select "Multiple Windows," keep the default display number, select "Do not launch client," check the "Disable access control" option, and click "Finish." This will run a virtual machine for Linux in the background where you can view Brainstorm.
+2. Make sure VcXsrv is installed. To run it in this mode, open XLAUNCHER, select "Multiple Windows," keep the default display number, select "Do not launch client," check the "Disable access control" option, and click "Finish." This will run a virtual machine for Linux in the background where you can view Brainstorm.
 
-This software starts Brainstorm using the compiled MATLAB runtime environment. Make sure VcXsrv is installed.
+This software starts Brainstorm using the compiled MATLAB runtime environment.
 
 GUI MODE (ONLINE) 
 xhost +
