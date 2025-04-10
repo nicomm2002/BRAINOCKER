@@ -1,6 +1,7 @@
 ONLY FOR LINUX USERS
 
-GUIDE MODE (locally)
+PREAMBLE
+
 1. xhost: This command disables access control, allowing clients to connect from any host
 2. Make sure VcXsrv is installed. To run it in this mode, open XLAUNCHER, select "Multiple Windows," keep the default display number, select "Do not launch client," check the "Disable access control" option, and click "Finish." This will run a virtual machine for Linux in the background where you can view Brainstorm.
 
