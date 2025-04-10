@@ -6,7 +6,7 @@ If you're not sure how to install them, check out these links:
 - WSL (Windows Subsystem for Linux)  ------------------------------------------------------------> ('https://learn.microsoft.com/es-es/windows/wsl/install')
 - Docker Hub-------------------------------------------------------------------------------------> ('https://learn.microsoft.com/es-es/windows/wsl/install')
 
-Once installed, open your Linux terminal and run the following command:
+Once both are installed, open your Linux terminal and run the following command:
 >> docker pull nicomm77/neurodockernmm:v1
 
 This will download the Docker image to your local machine.
