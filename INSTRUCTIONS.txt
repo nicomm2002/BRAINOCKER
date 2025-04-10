@@ -7,31 +7,29 @@ If you're not sure how to install them, check out these links:
 - Docker Hub-------------------------------------------------------------------------------------> ('https://learn.microsoft.com/es-es/windows/wsl/install')
 
 Once both are installed, open your Linux terminal and run the following command:
->> docker pull nicomm77/neurodockernmm:v1
+ docker pull nicomm77/neurodockernmm:v1
 
 This will download the Docker image to your local machine.
 You can now run the container and start using the software.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-ONLY FOR GUI MODE
+NOTE:
 1. xhost: This command disables access control, allowing clients to connect from any host
 2. Make sure VcXsrv is installed. To run it in this mode, open XLAUNCHER, select "Multiple Windows," keep the default display number, select "Do not launch client," check the "Disable access control" option, and click "Finish." This will run a virtual machine for Linux in the background where you can view Brainstorm.
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 GUI MODE 
-xhost +
-docker run -it --rm -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix nicomm77/neurodockernmm:v1
-
+>> xhost +
+>> docker run -it --rm -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix nicomm77/neurodockernmm:v1
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-SERVER MODE (ONLINE)
+SERVER MODE 
 Server mode allows the user to run Brainstorm without a GUI, for this you must specify the path of the .m file you want to run.
-                    
-Use this command
+
+Run the following command:
 >> docker run -it --rm \
 -v /mnt/c/Users/ASUS/path to your .m file/:/mnt/path \
 neurodockernmm \
 /usr/local/MATLAB/MATLAB_Runtime/R2023a /mnt/path/nameofyourfile.m    
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-EXAMPLE >>>>>>>>>>> I have my .m file in ('c/Users/ASUS/OneDrive/Escritorio/JUEGOS') so i wrote in this way:
+EXAMPLE >>>>>>>>>>> My .m file is located at C:/Users/ASUS/OneDrive/Desktop/GAMES, so I used the path /mnt/c/Users/ASUS/OneDrive/Desktop/GAMES. It's important to include /mnt/ at the beginning of the path.
 >> docker run -it --rm \
 -v /mnt/c/Users/ASUS/OneDrive/Escritorio/JUEGOS:/mnt/juegos \
 neurodockernmm \
