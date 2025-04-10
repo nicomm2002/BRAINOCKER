@@ -1,23 +1,24 @@
 MIT License
-NEURODOCK SOFTWARE LICENSE AGREEMENT
+
 Copyright (c) 2025 Nicolás Martínez Martínez
 
-Author: Nicolás Martínez Martínez
-Institution: CSIC - CAJAL INSTITUTE
-Neuroimaging Group / Group Leader: Julia Guiomar Niso Galán
-Copyright (c) 2025 Nicolás Martínez Martínez
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (NEURODOCK SOFTWARE) to use it without certain restrictions, including without limitation the rights to use, copy, and distribute it, and to permit persons to whom the software is furnished to do so, subject to the following conditions:
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the software.
-1. Attribution of Third-Party Components: This Docker uses components of Matlab, Brainstorm, and Linux. These programs and systems are subject to their own licenses and restrictions. It is the user's sole responsibility to ensure compliance with the terms of those licenses before using this Docker.
-2. No Sale: This Docker may not be sold, in whole or in part, under any circumstances.
-3. Patent Restrictions: The use of this Docker or any part thereof for the generation of patents derived from or related to it is prohibited.
-4. Third-Party Components Acknowledgement: This Docker includes configurations that allow running Matlab and Brainstorm, which are subject to their own licenses. It is the user's sole responsibility to ensure compliance with the terms of those licenses before using this Docker.
-5. User Responsibility: The user must have the appropriate and valid Matlab and Brainstorm licenses before using this container.
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DISPOSAL OF THE SOFTWARE.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-
-
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
 
 
