@@ -3,7 +3,7 @@ NEURODOCKER
 
 Copyright (c) 2025 Nicolás Martínez Martínez
 
-Custom Docker container for running Matlab and Brainstorm in Linux environments in a secure and reproducible manner.
+Custom Docker container to run Brainstorm in a Matlab environment for Linux environments in a secure and reproducible manner.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
