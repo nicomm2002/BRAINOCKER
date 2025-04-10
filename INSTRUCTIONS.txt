@@ -1,5 +1,5 @@
 PREAMBLE
-This software launches Brainstorm using the compiled MATLAB Runtime 2023a environment.
+This software launches Brainstorm using the compiled version of MATLAB Runtime 2023a environment.
 Make sure you have Linux and Dockerhub installed on your computer.
 If you're not sure how to install them, check out these links:
 
