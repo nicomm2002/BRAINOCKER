@@ -1,4 +1,4 @@
-NEURODOCKER
+BRAINOCKER
 
 
 Copyright (c) 2025 Nicolás Martínez Martínez
