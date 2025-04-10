@@ -3,7 +3,7 @@ Copyright (c) 2025 Nicolás Martínez Martínez
 
 Custom Docker container for running Matlab and Brainstorm in Linux environments in a secure and reproducible manner.
 
-[![License: CC BY-ND 4.0](https://licensebuttons.net/l/by-nd/4.0/88x31.png)](https://creativecommons.org/licenses/by-nd/4.0/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ⚠️ Usage Restrictions
 
