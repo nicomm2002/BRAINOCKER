@@ -4,7 +4,7 @@ Make sure you have Linux and Dockerhub installed on your computer.
 If you're not sure how to install them, check out these links:
 
 - WSL (Windows Subsystem for Linux)  ------------------------------------------------------------> ('https://learn.microsoft.com/es-es/windows/wsl/install')
-- Docker Hub-------------------------------------------------------------------------------------> ('https://learn.microsoft.com/es-es/windows/wsl/install')
+- Docker Hub-------------------------------------------------------------------------------------> ('https://hub.docker.com/welcome')
 
 Once both are installed, open your Linux terminal and run the following command:
 >> docker pull nicomm77/neurodockernmm:v1 
