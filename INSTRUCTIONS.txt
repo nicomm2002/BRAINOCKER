@@ -12,12 +12,20 @@ xhost +
 docker run -it --rm -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix nicomm77/neurodockernmm:v1
 
 SERVER MODE (ONLINE)
-docker run -it --rm \
+Server mode allows the user to run Brainstorm without a GUI, for this you must specify the path of the .m file you want to run.
+                    
+Use this command
+>> docker run -it --rm \
+-v /mnt/c/Users/ASUS/path to your .m file/:/mnt/path \
+neurodockernmm \
+/usr/local/MATLAB/MATLAB_Runtime/R2023a /mnt/path/nameofyourfile.m    
+
+
+EXAMPLE >>>>>>>>>>> I have my .m file in ('c/Users/ASUS/OneDrive/Escritorio/JUEGOS') so i write in this way:
+>> docker run -it --rm \
 -v /mnt/c/Users/ASUS/OneDrive/Escritorio/JUEGOS:/mnt/juegos \
-nicomm77/neurodockernmm:v1 \
-/usr/local/MATLAB/MATLAB_Runtime/R2023a /mnt/juegos/start.m
-
-
+neurodockernmm \
+/usr/local/MATLAB/MATLAB_Runtime/R2023a /mnt/juegos/start.m 
 
 
 
