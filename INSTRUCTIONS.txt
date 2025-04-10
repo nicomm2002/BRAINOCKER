@@ -1,6 +1,16 @@
-ONLY FOR LINUX USERS
 PREAMBLE
-This software starts Brainstorm using the compiled MATLAB runtime environment.
+This software launches Brainstorm using the compiled MATLAB Runtime 2023a environment.
+Make sure you have Linux and Dockerhub installed on your computer.
+If you're not sure how to install them, check out these links:
+
+- WSL (Windows Subsystem for Linux)  ------------------------------------------------------------> ('https://learn.microsoft.com/es-es/windows/wsl/install')
+- Docker Hub-------------------------------------------------------------------------------------> ('https://learn.microsoft.com/es-es/windows/wsl/install')
+
+Once installed, open your Linux terminal and run the following command:
+>> docker pull nicomm77/neurodockernmm:v1
+
+This will download the Docker image to your local machine.
+You can now run the container and start using the software.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ONLY FOR GUI MODE
 1. xhost: This command disables access control, allowing clients to connect from any host
