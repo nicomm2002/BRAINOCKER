@@ -14,11 +14,18 @@ This command will download the Docker image to your local machine, you can now r
 NOTE:
 GUI mode allows the user to interact with Brainstorm through its graphical interface.
 
+You should have installed xhost + command on your Linux terminal,if not, you can type this command
+>> sudo apt update
+>> sudo apt install x11-xserver-utils
+
+Note:
 1. xhost: This command disables access control, allowing clients to connect from any host
 2. Make sure VcXsrv is installed. To run it in this mode, open XLAUNCHER, select "Multiple Windows," keep the default display number, select "Do not launch client," check the "Disable access control" option, and click "Finish." This will run a virtual machine for Linux in the background where you can view Brainstorm.
 
 GUI MODE 
-Run the following command:
+Run the following command (Once you have xhost + command installed)
+>> wsl
+>> docker login
 >> xhost +
 >> docker run -it --rm -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix nicomm77/neurodockernmm:v1
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
