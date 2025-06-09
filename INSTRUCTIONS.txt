@@ -36,7 +36,7 @@ SERVER MODE
 Run the following command:
 >> docker run -it --rm \
 -v /mnt/c/Users/ASUS/path to your .m file/:/mnt/path \
-neurodockernmm \
+neurodockernmm:v1 \
 /usr/local/MATLAB/MATLAB_Runtime/R2023a /mnt/path/nameofyourfile.m    
 
 EXAMPLE >>>>>>>>>>> My .m file is located at C:/Users/ASUS/OneDrive/Desktop/GAMES, so I used the path /mnt/c/Users/ASUS/OneDrive/Desktop/GAMES. It's important to include /mnt/ at the beginning of the path.
