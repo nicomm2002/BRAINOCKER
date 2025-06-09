@@ -42,7 +42,7 @@ neurodockernmm \
 EXAMPLE >>>>>>>>>>> My .m file is located at C:/Users/ASUS/OneDrive/Desktop/GAMES, so I used the path /mnt/c/Users/ASUS/OneDrive/Desktop/GAMES. It's important to include /mnt/ at the beginning of the path.
 >> docker run -it --rm \
 -v /mnt/c/Users/ASUS/OneDrive/Escritorio/JUEGOS:/mnt/juegos \
-neurodockernmm \
+neurodockernmm:v1 \
 /usr/local/MATLAB/MATLAB_Runtime/R2023a /mnt/juegos/start.m 
 
 
