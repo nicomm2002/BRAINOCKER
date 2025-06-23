@@ -220,14 +220,14 @@ disp('== Save report');
 ReportFile = bst_report('Save', []);
 bst_report('Export', ReportFile, ReportsDir);
 
-% Copy brainstorm_db data
-copyfile([BrainstormDbDir,'/',ProtocolName], DataDir);
-
 % Delete existing protocol
 gui_brainstorm('DeleteProtocol', ProtocolName);
 disp('== Delete protocol');
- 
+
+  
 
 %% DONE
 disp('** Done!');
+disp('Thank you for using Brainocker');
+
      
