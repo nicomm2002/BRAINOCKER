@@ -47,5 +47,9 @@ nicomm77/neurodockernmm:v1 \
 /usr/local/MATLAB/MATLAB_Runtime/R2023a /mnt/juegos/start2.m
 
 
+Place this folder "/tmp/brainstorm_db/" where the data will be stored
+
+
+
 
 
